@@ -24,18 +24,23 @@ function Awards() {
             <div className="col-lg-6 col-sm-12">
               <ul>
                 <li>Futures and Options</li>
+                <br></br>
                 <li>Equities & F&O</li>
+                <br></br>
                 <li>Mutual Funds</li>
               </ul>
             </div>
             <div className="col-lg-6 col-sm-12">
               <ul>
                 <li>IPOs & Bonds</li>
+                <br></br>
                 <li>FinVista Funds </li>
+                <br></br>
                 <li>Smart SIPs</li>
               </ul>
             </div>
           </div>
+          <img src="media/pressLogos.png" alt="Press Logos" className="img-fluid mt-3" />
         </div>
       </div>
     </div>
