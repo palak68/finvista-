@@ -1,15 +1,18 @@
 import React from 'react';
+import Lottie from "lottie-react";
+import animationData from "../../assets/graph.file.json";
 function Education() {
     return ( <div className='container mt-5 mb-4'>
         <div className='row'>
             <div className='col-lg-6 col-sm-12 p-5 text-center'>
-  <iframe 
-    src="https://my.spline.design/untitled-63be99ed490b03e6219e21f88cc37970/" 
-    frameBorder="0" 
-    width="100%" 
-    height="500px"
-    style={{ border: "none", borderRadius: "20px" }}
-  ></iframe>
+                <div
+            style={{
+              width: "500px",
+              margin: "auto"
+            }}
+          >
+            <Lottie animationData={animationData} loop={true} autoplay={true} />
+          </div>
 </div>
             <div className='col-lg-6 col-sm-12 p-5'>
                 <h1>Free and open market Education</h1>
