@@ -16,3 +16,7 @@ code {
     font-weight: 500;
     color: #555 !important;
 }
+.nav-item:hover .nav-link {
+    color: #000 !important;
+    transition: 0.3s;
+}

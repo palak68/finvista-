@@ -10,7 +10,7 @@ import OPenAccount from '../Openaccount';
 import Footer from '../Footer'
 function HomePage() {
     return ( <>
-      <Navbar />  
+     
       <Hero />
        <Awards />
         <Stats />
@@ -18,7 +18,7 @@ function HomePage() {
         <Education />
         <OPenAccount />
        
-        <Footer />
+        
     </> );
 }
 
