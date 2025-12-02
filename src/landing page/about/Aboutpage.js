@@ -1,6 +1,7 @@
 import React from 'react';
+import Hero from './Hero';
 function About() {
-    return ( <h1>About Page</h1> );
+    return ( <Hero/> );
 }
 
 export default About;
