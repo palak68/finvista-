@@ -1,5 +1,6 @@
 import React from 'react';
+import Hero from './Hero';
 function ProductPage() {
-    return ( <h1>Product Page</h1> );
+    return ( <Hero /> );
 }
 export default ProductPage;

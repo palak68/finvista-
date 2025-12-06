@@ -39,7 +39,48 @@ function Hero() {
                     />
                 </div>
             </div>
+            {/* ---------- VISION & MISSION SECTION ---------- */}
 
+<div className="container mt-5 pt-5">
+
+  <div className="text-center scroll-animate fade-up">
+    <h2 className="fw-bold vm-title">Our Vision & Mission</h2>
+    <p className="vm-subtext">
+      Everything we build moves us closer to a financially confident India.
+    </p>
+  </div>
+
+  <div className="row mt-5 align-items-center">
+
+    {/* Vision Card */}
+    <div className="col-lg-6 col-md-6 col-sm-12 mb-4 scroll-animate fade-left">
+      <div className="vm-card">
+        <h3 className="vm-head">Our Vision</h3>
+        <p>
+          To become India’s most trusted and accessible digital investment platform — 
+          a place where every individual, regardless of background or experience, 
+          can build long-term wealth with confidence and clarity.
+        </p>
+      </div>
+    </div>
+
+    {/* Mission Card */}
+    <div className="col-lg-6 col-md-6 col-sm-12 mb-4 scroll-animate fade-right">
+      <div className="vm-card">
+        <h3 className="vm-head">Our Mission</h3>
+        <p>
+          To simplify finance through innovation, transparency, and smart technology.  
+          We aim to empower investors with intuitive tools, secure infrastructure, 
+          and real-time insights that help them make informed financial decisions.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+</div>
             {/* ------------------ WHAT FINVISTA OFFERS ------------------ */}
             <div className="row text-center mt-5 p-4">
                 <h2 className="mt-5"><b>What FinVista Offers</b></h2>
@@ -51,43 +92,43 @@ function Hero() {
                 {/* Offer Cards */}
                 <div className="row mt-4">
 
-                    <div className="col-lg-4 col-md-6 col-sm-12 mb-4" >
-                        <div className="p-4 border rounded shadow-sm h-100">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mb-4 "  >
+                        <div className="p-4 border rounded shadow-sm h-100 offer-card">
                             <h4>⚡ Fast & Secure Trading</h4>
                             <p>Execute trades instantly with high-speed performance and secure systems.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div className="p-4 border rounded shadow-sm h-100">
+                        <div className="p-4 border rounded shadow-sm h-100 offer-card">
                             <h4>🤖 AI-Based Insights</h4>
                             <p>Smart investment suggestions based on real-time data and analytics.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div className="p-4 border rounded shadow-sm h-100">
+                        <div className="p-4 border rounded shadow-sm h-100 offer-card">
                             <h4>📊 Unified Investment Platform</h4>
                             <p>Manage stocks, mutual funds, and SIPs from one easy dashboard.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div className="p-4 border rounded shadow-sm h-100">
+                        <div className="p-4 border rounded shadow-sm h-100 offer-card">
                             <h4>💰 Transparent Pricing</h4>
                             <p>No hidden fees — simple and clear pricing structure.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div className="p-4 border rounded shadow-sm h-100">
+                        <div className="p-4 border rounded shadow-sm h-100 offer-card">
                             <h4>📈 Advanced Portfolio Tracking</h4>
                             <p>Track PnL, asset allocation, and performance with interactive charts.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div className="p-4 border rounded shadow-sm h-100">
+                        <div className="p-4 border rounded shadow-sm h-100 offer-card">
                             <h4>🛡 Enterprise-Level Security</h4>
                             <p>Bank-grade encryption ensures maximum safety for your data and money.</p>
                         </div>

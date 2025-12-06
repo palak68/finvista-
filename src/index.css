@@ -20,3 +20,50 @@ code {
     color: #000 !important;
     transition: 0.3s;
 }
+.offer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(42, 18, 151, 0.2);
+    background-color: #ecf4f3;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+.vm-title {
+      cursor: pointer;
+      transition: .3s;
+    }
+    .vm-title:hover {
+      color: #27056c21;
+      transform: scale(1.05);
+    }
+
+    .vm-subtext {
+      color: #555;
+      transition: .3s;
+    }
+    .vm-subtext:hover {
+      transform: scale(1.02);
+      color: #333;
+    }
+
+    /* Cards */
+    .vm-card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: .4s ease;
+      cursor: pointer;
+      height: 100%;
+    }
+
+    .vm-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+      background: #f8faff;
+    }
+
+    .vm-head {
+      color: #17397dff;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
